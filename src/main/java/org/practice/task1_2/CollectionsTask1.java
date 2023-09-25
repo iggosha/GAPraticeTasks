@@ -2,7 +2,7 @@ package org.practice.task1_2;
 
 import java.util.*;
 
-public class CollectionsTask {
+public class CollectionsTask1 {
 
     public static List<Integer> arrayList = new ArrayList<>();
     public static List<Integer> linkedList = new LinkedList<>();
@@ -10,7 +10,7 @@ public class CollectionsTask {
     public static Set<Integer> hashSet = new HashSet<>();
 
     public static void main(String[] args) {
-        CollectionsTask task = new CollectionsTask();
+        CollectionsTask1 task = new CollectionsTask1();
         {
             // Примерное среднее время - 0.3, 2.3, 1.25 и 0.5 соответственно
             task.countTimeForAdd(task::addIntegersToArrayList, "добавления в arrayList 10_000_000");
